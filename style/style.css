@@ -200,6 +200,18 @@
       .title-hero-sub{
         font-size: 1.3rem;
       }
+
+      .title-content{
+        font-size: 1.5rem; 
+      }
+
+      .content {        
+        padding: 20px 30px;
+      }
+
+      .isi-konten-satu, .isi-konten{
+        font-size: 1rem;
+      }
 }
 @media only screen and (max-device-width: 1024px) {
     .parallax {
