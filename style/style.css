@@ -1,0 +1,208 @@
+/* Navbar section */
+.navbar {
+  padding: 1rem 5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.1rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  margin-right: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* End Navbar section */
+
+/* Content Section */
+
+.container-custome {
+  text-align: center;
+  padding: 0;
+}
+
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)),
+    url("../img/element5-digital-jCIMcOpFHig-unsplash.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  padding: 15% 0;
+  color: #fff;
+}
+
+.title-hero {
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  line-height: 1;
+}
+
+.title-hero-sub {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.content {
+  margin: 5% 0;
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.title-content {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#content-satu,
+.title-content {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.isi-konten,
+.isi-konten-satu {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.isi-konten {
+  padding: 10%;
+  line-height: 1.5;
+}
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.border {
+    border: none !important;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.bg-1 {
+  background-image: url(../img/sporlab-XiZ7pRvCzro-unsplash.jpg);
+  min-height: 400px;
+  opacity: 0.65;
+}
+.bg-2 {
+  background-image: url(../img/jenny-hill-mQVWb7kUoOE-unsplash.jpg);
+  min-height: 400px;
+  opacity: 0.65;
+}
+.bg-3 {
+  background-image: url(../img/nathalie-desiree-mottet-lRKM2STBj14-unsplash.jpg);
+  min-height: 400px;
+  opacity: 0.65;
+}
+.bg-4 {
+  background-image: url(../img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+  min-height: 400px;
+  opacity: 0.65;
+}
+/* End Content Section*/
+
+/* About us */
+#about-us {
+  margin: 10% 0;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.profile-img {
+  margin: 50px 0 15px;
+  width: 250px;
+}
+
+.profile-mhs {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.quotes-profile {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.about-us-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: #353b48;
+}
+/* End about us */
+
+/* FOoter */
+#footer {
+  padding: 20px 15%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.icon-footer {
+  margin: 20px 10px;
+}
+/* end footer */
+@media (max-width: 700px) { 
+    .navbar {
+      padding: 1rem 2rem !important;
+      font-family: "Lato", sans-serif;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: 900;
+      }
+
+      .nav-item {
+        font-size: .85rem;
+      }
+
+      .title-hero {
+        font-size: 2.5rem;
+      }
+      .title-hero-sub{
+        font-size: 1.3rem;
+      }
+}
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+
